@@ -13,7 +13,7 @@ function App() {
     <>
     <Provider store={store}>
       <div className='overflow-hidden h-full w-full'>
-      <ToastContainer position="top-right" autoClose={5000} />
+      <ToastContainer position="top-left" autoClose={5000} />
      <NotesPage />
      </div>
     </Provider>
